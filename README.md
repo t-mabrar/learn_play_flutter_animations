@@ -18,9 +18,9 @@ This repository is a collection of mini-projects, demos, and snippets I've built
 
 ---
 
-## 📱 Demo Preview
+# 📱 Demo Preview
 
-#### 🎞️ Featured Animation: Dual Ring Rotation & Shape Morphing
+## 🎞️ Featured Animation: Dual Ring Rotation & Shape Morphing
 
 
 🌀 **Dual Ring Rotation & Shape Morphing**  
@@ -36,7 +36,7 @@ This animation showcases:
 
 ![Basic Animations](https://raw.githubusercontent.com/t-mabrar/learn_play_flutter_animations/refs/heads/main/screenshots/basic_animations.gif)
 
-#### 🎨 Featured Animation: Color Fan Explosion
+## 🎨 Featured Animation: Color Fan Explosion
 
 
 🌈 **Color Fan Explosion**  
@@ -128,6 +128,126 @@ Highlights include:
 
 ![Pulse Button Animation](https://raw.githubusercontent.com/t-mabrar/learn_play_flutter_animations/refs/heads/main/screenshots/pulse_button.gif)
 
+## 💥 Featured Animation: Pulse Effect
+
+💥 **Pulse Effect Animation**  
+A smooth, expanding pulse animation that radiates outward from a central point, mimicking a **heartbeat or radar pulse** effect.  
+This animation utilizes scaling and opacity transitions to create a rhythmic glow that grabs attention without overwhelming the UI.
+
+Key features:
+- 🔄 Continuous scaling with fading opacity
+- ⏱️ Looping animation using `AnimatedBuilder` and `Tween`
+- 🎯 Perfect for notifications, focus highlights, or interactive hints
+
+> 💡 Ideal for subtle yet effective emphasis in your Flutter apps.
+
+![Pulse Effect](https://raw.githubusercontent.com/t-mabrar/learn_play_flutter_animations/refs/heads/main/screenshots/pulse_effect.gif)
+
+## ❌ Featured Animation: Remove Button with Icon Animation
+
+❌ **Remove Button with Icon Animation**  
+A sleek remove button that combines an **animated icon transition** with smooth feedback on interaction.  
+The icon animates with a fluid motion when clicked, enhancing the user experience with clear, intuitive visual cues.
+
+This animation features:
+- 🔄 Icon morphing and rotation effects
+- 🎯 Responsive click animation with scaling
+- 🖱️ Built using `AnimatedIcon`, `Transform`, and `GestureDetector`
+
+> 💡 Perfect for deletion actions, dismiss buttons, or interactive UI elements requiring confirmation.
+
+![Remove Button Animation](https://raw.githubusercontent.com/t-mabrar/learn_play_flutter_animations/refs/heads/main/screenshots/remove_button.gif)
+
+## 🎲 Featured Animation: Button Roll with Rotation & Transition
+
+🎲 **Button Roll Animation**  
+A dynamic button animation where clicking the button triggers a **rolling rotation effect**.  
+The button **rolls forward on click**, simulating a physical roll, and **rolls back when the event ends**, combining rotation and smooth transition animations for a playful interaction.
+
+Key features:
+- 🔄 Rotation-based roll animation
+- ⏳ Smooth transition between rolled and unrolled states
+- 🎯 Responsive to click events using `AnimatedBuilder` and `Transform.rotate`
+
+> 💡 Great for interactive buttons needing engaging, tactile feedback.
+
+![Button Roll Animation](https://raw.githubusercontent.com/t-mabrar/learn_play_flutter_animations/refs/heads/main/screenshots/roll_button.gif)
+
+## 📦 Featured Animation: Sliding Box with Rotation & Transition
+
+📦 **Sliding Box Animation**  
+A smooth animation where a box **slides along a stair-like path**, rotating as it moves, then returns to its original position.  
+This effect combines linear sliding with rotation transitions, creating an engaging visual flow that mimics a box climbing stairs.
+
+Highlights include:
+- ↗️ Coordinated sliding and rotation movement
+- 🔄 Smooth transitions back to the start position
+- 🎨 Use of `AnimatedPositioned`, `Transform.rotate`, and easing curves for fluid motion
+
+> 💡 Ideal for showcasing motion dynamics or interactive UI elements with complex animation.
+
+![Sliding Box Animation](https://raw.githubusercontent.com/t-mabrar/learn_play_flutter_animations/refs/heads/main/screenshots/sliding_box.gif)
+
+## ▶️ Featured Animation: Start Button with Sliding Background & Animated Arrows
+
+▶️ **Start Button with Sliding Background & Animated Arrows**  
+A visually engaging start button featuring a **sliding background effect** combined with **custom-painted arrows** that animate in and out smoothly.  
+The arrows are drawn using `CustomPainter`, with animated opacity and movement, while the background slide creates a dynamic, inviting call to action.
+
+Key features:
+- 🎨 Custom-painted arrow graphics with smooth animation
+- 🟦 Sliding background effect synchronized with arrow motion
+- ⚙️ Controlled animation sequences using `AnimatedBuilder` and `Tween`
+
+> 💡 Perfect for start actions, interactive prompts, or stylish call-to-action buttons.
+
+![Start Button Animation](https://raw.githubusercontent.com/t-mabrar/learn_play_flutter_animations/refs/heads/main/screenshots/start_button_animation.gif)
+
+## 🔤 Featured Animation: Text Roll with Rotating Letters
+
+🔤 **Text Roll Animation**  
+An eye-catching text animation where specific words within a sentence **rotate letter-by-letter**, appearing and disappearing in a smooth rolling effect.  
+Each letter flips individually, creating a dynamic and engaging transition that highlights changing content seamlessly.
+
+Animation highlights:
+- 🔄 Letter-by-letter rotation with appearance and disappearance
+- ✨ Smooth transition between words within the same sentence
+- 🎨 Combines `AnimatedSwitcher` and `Transform` for polished effects
+
+> 💡 Perfect for dynamic headers, attention-grabbing messages, or creative text displays.
+
+![Text Roll Animation](https://raw.githubusercontent.com/t-mabrar/learn_play_flutter_animations/refs/heads/main/screenshots/text_roll.gif)
+
+## 🕹️ Featured Animation: Retro 3D Button Click Effect
+
+🕹️ **Retro 3D Button Click Effect**  
+A nostalgic button animation that simulates a **3D press effect reminiscent of retro interfaces**.  
+When clicked, the button visually depresses with depth and shadow changes, giving a tactile and vintage feel.
+
+Key features:
+- 🎛️ 3D press-down illusion using shadows and scaling
+- 🖱️ Responsive click feedback with smooth animation
+- 🎨 Utilizes `Transform` and `BoxShadow` for depth simulation
+
+> 💡 Great for retro-themed apps, game UIs, or distinctive interactive buttons.
+
+![3D Button Animation](https://raw.githubusercontent.com/t-mabrar/learn_play_flutter_animations/refs/heads/main/screenshots/three_d_button.gif)
+
+## 🔄 Featured Animation: Twister – Rotating Squares
+
+🔄 **Twister Animation**  
+An engaging visual where multiple squares **rotate simultaneously with varying angles and timings**, creating a hypnotic twister effect.  
+This animation highlights coordinated rotation, timing, and smooth easing to deliver a captivating, dynamic pattern.
+
+Features include:
+- ⏱️ Staggered rotation timings for a lively twister motion
+- 🔲 Multiple squares rotating with precise angle control
+- 🎨 Utilizes `Transform.rotate` and animation controllers for fluid motion
+
+> 💡 Perfect for loaders, background effects, or eye-catching UI elements.
+
+![Twister Animation](https://raw.githubusercontent.com/t-mabrar/learn_play_flutter_animations/refs/heads/main/screenshots/twister.gif)
+
 ---
 
 ## 📂 Folder Structure
@@ -181,3 +301,27 @@ lib/
 │   ├── three_d_button.dart
 │   └── white_screen.dart
 └── main.dart
+```
+
+---
+
+## 🤝 Feedback, Contributions & Collaboration
+
+I’m passionate about exploring Flutter animations and continuously improving this collection. Your input is invaluable!  
+
+If you have any **suggestions, corrections, ideas, or questions**, please don’t hesitate to reach out. Here’s how you can connect:
+
+- 📧 **Email:** mohammedabrar312@gmail.com
+- 💬 **GitHub:** Open an issue or submit a pull request  
+- 🌐 **Socials:** 
+    - [GitHub](https://github.com/t-mabrar)  
+    - [LinkedIn](https://www.linkedin.com/in/mauhts/)  
+    - [Dev.to](https://dev.to/m_abrar)  
+
+### Want to contribute?  
+Contributions are welcome! Whether it's fixing bugs, improving animations, adding new ones, or enhancing documentation — every bit helps. Please fork the repo and submit a pull request.
+
+### License  
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and share with proper credit.
+
+Thank you for stopping by — let’s build amazing Flutter experiences together! 🚀
