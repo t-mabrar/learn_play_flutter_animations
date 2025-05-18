@@ -321,7 +321,7 @@ If you have any **suggestions, corrections, ideas, or questions**, please don’
 ### Want to contribute?  
 Contributions are welcome! Whether it's fixing bugs, improving animations, adding new ones, or enhancing documentation — every bit helps. Please fork the repo and submit a pull request.
 
-### License  
+<!-- ### License  
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and share with proper credit.
 
-Thank you for stopping by — let’s build amazing Flutter experiences together! 🚀
+Thank you for stopping by — let’s build amazing Flutter experiences together! 🚀 -->
