@@ -29,6 +29,8 @@ class _BlueScreenState extends State<BlueScreen> {
             PulseButton(),
             DashedButton(),
             ColorFan(),
+            SizedBox(height: 50.0),
+
           ],
         ),
       ),

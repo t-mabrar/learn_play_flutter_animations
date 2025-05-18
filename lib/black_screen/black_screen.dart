@@ -28,7 +28,7 @@ class _BlackScreenState extends State<BlackScreen> {
             MultiTextSlide(),
             SizedBox(height: 20.0),
             TwistingSquares(),
-
+            SizedBox(height: 20.0),
             FizzyButton(),
             // FlushButton(),
             // ClippingButton(),

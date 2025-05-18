@@ -180,22 +180,23 @@ class _AnotherFlipButtonState extends State<AnotherFlipButton>
                     child: Center(child: Text("Back")),
                   ),
                 ),
-                Transform(
-                  alignment: Alignment.topCenter,
-                  transform:
-                      Matrix4.identity()
-                        ..setEntry(3, 2, 0.001)
-                        ..translate(
-                          Vector3(0, (_frontTranslateAnimation.value), 0),
-                        )
-                        ..rotateX(_frontRotationAnimation.value),
-                  child: Container(
-                    // width: buttonWidth,
-                    // height: buttonHeight,
-                    color: Colors.red,
-                    child: Center(child: Text("Front")),
+                if (!(_frontRotationAnimation.value == pi / 2))
+                  Transform(
+                    alignment: Alignment.topCenter,
+                    transform:
+                        Matrix4.identity()
+                          ..setEntry(3, 2, 0.001)
+                          ..translate(
+                            Vector3(0, (_frontTranslateAnimation.value), 0),
+                          )
+                          ..rotateX(_frontRotationAnimation.value),
+                    child: Container(
+                      // width: buttonWidth,
+                      // height: buttonHeight,
+                      color: Colors.red,
+                      child: Center(child: Text("Front")),
+                    ),
                   ),
-                ),
               ],
             ),
           );
